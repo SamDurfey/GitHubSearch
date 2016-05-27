@@ -1,5 +1,5 @@
 var apiKey = require("./../.env").apiKey;
-var getUserStuff = require("./../js/search.js").getUserStuff;
+var printUserStuff = require("./../js/search.js").printUserStuff;
 var printRepoList = require("./../js/search.js").printRepoList;
 
 $(document).ready(function() {
@@ -9,12 +9,12 @@ $(document).ready(function() {
 	// populated inside of a list...
 	$("#userSearchForm").submit(function(event){
 		event.preventDefault();
-		$("#searchResults").empty();
+		$("#repoList").empty();
+		$("#followerList").empty();
 		var userName = $("#searchUser").val();
-		printRepoList(userName);
-		// getUserStuff(userName);
+		printUserStuff(userName);
 
-		// populate populate list with results
+		// populate list with results
 		$("#resultsContainer").slideDown();
 	});
 
