@@ -1,6 +1,5 @@
 var apiKey = require("./../.env").apiKey;
 var printUserStuff = require("./../js/search.js").printUserStuff;
-var printRepoList = require("./../js/search.js").printRepoList;
 
 $(document).ready(function() {
 
