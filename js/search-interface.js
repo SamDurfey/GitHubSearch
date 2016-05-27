@@ -14,4 +14,7 @@ $(document).ready(function() {
 		$("#resultsContainer").slideDown(); // reveal results div.
 	});
 
+	var repolist = getRepoList("samdurfey");
+	console.log("hello " + repolist);
+
 });
