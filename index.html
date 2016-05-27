@@ -20,23 +20,39 @@
           <button type="submit" class="btn btn-primary">CLICKME!</button>
         </form>
       </div>
+
       
-      <div id="resultsContainer">
+      <div id="resultsContainer" class="">
         <h2><img id="avatar" src="" alt="user avatar"> <span id="user"></span></h2>
-        <h2>Real Name: <span id="userName"></span></h3>
-        <div class="row jumbotron">
+        <h3>Real Name: <span id="userName"></span></h3>
+        <a id="searchAgain" href="#">Search For Another User</a>
           
-          <div class="col-sm-6">
-            <h3>Repositories:</h3>
-            <hr>
-            <ol id="repoList"></ol>
+        <div class="row">
+          <div class="col-xs-9">
+            <div class="row jumbotron">
+              <h2>Repositories:</h2>
+              <hr>
+              <div class="col-xs-4">
+                <h3>Title:</h3>
+                <ol id="repoList"></ol>
+              </div>
+              <div class="col-xs-8">
+                <h3>Description:</h3>
+                <ol id="repoDescriptions"></ol>
+              </div>
+            </div>
+
           </div>
-          <div class="col-sm-6">
-            <h3>Followers:</h3>
+          <div class="well followers col-sm-3">
+            <h3 class="collapse-trigger important">Click here to see followers</h3>
             <hr>
-            <ol id="followerList"></ol>
+            <ol class="collapse" id="followerList"></ol>
           </div>
+          
         </div>
+
+        
+        
       </div>
     </div>
   </body>

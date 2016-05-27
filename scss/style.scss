@@ -6,15 +6,40 @@
 	}
 
 	ol {
-		font-size: 1.15em;
+		// font-size: 1.15em;
 		list-style: none;
 		padding-left: 0;
-		line-height: 1.5em;
+		line-height: 2em;
 	}
-	h3 {
+
+	.jumbotron {
+		h2 {
+			margin-top: 0;
+		}	
+	}
+
+	.followers {
+		// outline: 2px solid black;
+		border-left: 2px solid #ccc;
+	}
+
+	.collapse-trigger {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+}
+
+.row h3 {
 		margin-top: 0;
 		font-weight: bold;
 		color: #23527c;
 	}
 
+.collapse {
+	display: none;
+}
+
+hr {
+	border-top: 2px solid #ccc;
 }

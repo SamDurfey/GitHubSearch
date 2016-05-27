@@ -13,10 +13,21 @@ $(document).ready(function() {
 		var userName = $("#searchUser").val();
 		printUserStuff(userName);
 
+		$("#searchFormContainer").hide();
 		// populate list with results
 		$("#resultsContainer").slideDown();
 	});
 
+	$("#searchAgain").click(function(event) {
+		$("#searchUser").val("");
+		$("#resultsContainer").slideUp("default", function() {
+			$("#searchFormContainer").show();	
+		});
+	});
+
+	$(".collapse-trigger").click(function(event) {
+		$(".collapse").slideToggle();
+	});
 	// debugger;
 
 });
