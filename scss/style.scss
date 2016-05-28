@@ -5,11 +5,14 @@
 		height: 3em;
 	}
 
-	ol {
-		// font-size: 1.15em;
+	ul {
 		list-style: none;
 		padding-left: 0;
 		line-height: 2em;
+
+		p {
+			font-size: 18px;
+		}
 	}
 
 	.jumbotron {
@@ -30,11 +33,16 @@
 
 }
 
-.row h3 {
+.row {
+	p {
+		margin-bottom: .25em;
+	}
+	h3 {
 		margin-top: 0;
 		font-weight: bold;
 		color: #23527c;
 	}
+}
 
 .collapse {
 	display: none;

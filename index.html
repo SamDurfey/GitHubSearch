@@ -28,25 +28,34 @@
         <a id="searchAgain" href="#">Search For Another User</a>
           
         <div class="row">
+
           <div class="col-xs-9">
+
             <div class="row jumbotron">
+
               <h2>Repositories:</h2>
               <hr>
-              <div class="col-xs-4">
-                <h3>Title:</h3>
-                <ol id="repoList"></ol>
+
+              <div id="titlesRow" class="row">
+                <div class="col-xs-4">
+                  <h3>Title:</h3>
+                </div>
+
+                <div class="col-xs-8">
+                  <h3>Description:</h3>
+                </div>
               </div>
-              <div class="col-xs-8">
-                <h3>Description:</h3>
-                <ol id="repoDescriptions"></ol>
+              <div id="outputDiv">
+                <ul id="repoList"></ul>
               </div>
+
             </div>
 
           </div>
           <div class="well followers col-sm-3">
             <h3 class="collapse-trigger important">Click here to see followers</h3>
             <hr>
-            <ol class="collapse" id="followerList"></ol>
+            <ul class="collapse" id="followerList"></ul>
           </div>
           
         </div>
