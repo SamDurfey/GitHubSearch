@@ -20,6 +20,10 @@ Enter a user's login, and click the button to see these features:
 
 `exports.apiKey = "insert_your_own_personal_api_key_here";`
 
+*This project now has a GitHub page! Go here:*
+
+**http://samdurfey.github.io/GitHubSearch/**
+
 
 
 ***This project is written in JavaScript using Nodejs, Gulp and Bower. Bootstrap and JQuery used for styling and function.***
