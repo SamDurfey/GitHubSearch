@@ -25,9 +25,12 @@ First, download this repository to your machine.
 If you don't already have them, install Node and Sass.
 After this, open your command line to this directory, and enter these commands:
 
-`$ npm install` \
-`$ bower install` \
-`$ gulp build` \
+`$ npm install` 
+
+`$ bower install`
+
+`$ gulp build`
+
 `$ gulp serve`
 
 
