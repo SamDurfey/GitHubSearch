@@ -11,6 +11,8 @@ Enter a user's login, and click the button to see these features:
 - A list of the first 30 repositories listed under that user
 - You can also click on the followers doohickey to see a list of who follows them
 ****
+### Setup:
+First, download this repository to your machine.
 
 **Note: currently does not work if you don't have a GitHub api key. Working on making version that will work without one.**
 
@@ -19,6 +21,16 @@ Enter a user's login, and click the button to see these features:
 
 
 `exports.apiKey = "insert_your_own_personal_api_key_here";`
+
+If you don't already have them, install Node and Sass.
+After this, open your command line to this directory, and enter these commands:
+
+`$ npm install` \
+`$ bower install` \
+`$ gulp build` \
+`$ gulp serve`
+
+
 
 **This project now has a GitHub page! Go here:**
 
